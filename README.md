@@ -17,19 +17,18 @@ This project demonstrates how to integrate Razorpay payment gateway into a simpl
 ## 📸 Demo Preview
 
 ### 🧾 Payment Form UI  
-![Form UI](https://your-image-url.com/form-ui.png) <!-- Replace with your form screenshot -->
+![Form UI](https://your-image-url.com/form-ui.png) 
 
 ### 💰 Razorpay Checkout Screen  
-![Checkout Screen](https://your-image-url.com/checkout-ui.png) <!-- Replace with checkout screenshot -->
+![Checkout Screen](https://your-image-url.com/checkout-ui.png) 
 
 ### ✅ Successful Payment Alert  
-![Success Alert](https://your-image-url.com/success.png) <!-- Replace with success alert screenshot -->
-
+![Success Alert](https://your-image-url.com/success.png) 
 ---
 
 ## 🛠️ Technologies Used
 
-- HTML, CSS
+- HTML
 - JavaScript (for Razorpay Checkout)
 - PHP (for backend order creation)
 - Razorpay API
