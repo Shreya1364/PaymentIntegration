@@ -1,4 +1,4 @@
-# 💳 Razorpay Payment Integration Demo
+## 💳 Razorpay Payment Integration Demo
 
 This project demonstrates how to integrate Razorpay payment gateway into a simple HTML + PHP application. It supports test mode payments with fake card details and securely creates Razorpay orders from the backend.
 
@@ -39,7 +39,7 @@ Use this card for testing successful payments:
 
 Card Number: 4111 1111 1111 1111
 
-Expiry Date: Any future month/year(e.g 12/28)
+Expiry Date: Any future month/year
 
 CVV: 123
 
