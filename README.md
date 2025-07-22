@@ -16,7 +16,7 @@ This project demonstrates how to integrate Razorpay payment gateway into a simpl
 
 ## 📸 Demo Preview
 
-<img src="https://github.com/user-attachments/assets/e802a931-8750-46cd-8813-0f636c86d057" alt="🧾 Payment Form UI" height="300" width="400"/>
+<img src="https://github.com/user-attachments/assets/e802a931-8750-46cd-8813-0f636c86d057" alt="🧾 Payment Form UI" height="400" width="400"/>
 
 <img src="https://github.com/user-attachments/assets/13c086cf-09e0-47a4-8933-8ebcc643f153" alt="💰 Razorpay Checkout" height="300" width="400"/>
 
