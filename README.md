@@ -39,7 +39,7 @@ Use this card for testing successful payments:
 
 Card Number: 4111 1111 1111 1111
 
-Expiry Date: 12/28
+Expiry Date: Any future month/year(e.g 12/28)
 
 CVV: 123
 
