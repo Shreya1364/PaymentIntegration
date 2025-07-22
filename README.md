@@ -6,24 +6,24 @@ This project demonstrates how to integrate Razorpay payment gateway into a simpl
 
 ## 🚀 Features
 
-- 🔒 Secure order creation using PHP backend
-- 🧾 Razorpay Checkout form with pre-filled user data
-- 💡 Works with Razorpay **Test Mode**
-- ✅ Simple and responsive design
-- 📩 Can be extended to send OTP/email after payment
+🔒 Secure order creation using PHP backend
+🧾 Razorpay Checkout form with pre-filled user data
+💡 Works with Razorpay **Test Mode**
+✅ Simple and responsive design
+📩 Can be extended to send OTP/email after payment
 
 ---
 
 ## 📸 Demo Preview
 
 ### 🧾 Payment Form UI  
-![Form UI](https://your-image-url.com/form-ui.png) 
+![Form UI]([https://your-image-url.com/form-ui](https://github.com/user-attachments/assets/e802a931-8750-46cd-8813-0f636c86d057.png) 
 
 ### 💰 Razorpay Checkout Screen  
-![Checkout Screen](https://your-image-url.com/checkout-ui.png) 
+![Checkout Screen](https://github.com/user-attachments/assets/13c086cf-09e0-47a4-8933-8ebcc643f153.png) 
 
 ### ✅ Successful Payment Alert  
-![Success Alert](https://your-image-url.com/success.png) 
+![Success Alert](https://github.com/user-attachments/assets/6e47ba38-ef9a-4979-815b-b4fba8952f86.png) 
 ---
 
 ## 🛠️ Technologies Used
