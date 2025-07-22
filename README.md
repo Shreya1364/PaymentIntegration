@@ -38,8 +38,11 @@ This project demonstrates how to integrate Razorpay payment gateway into a simpl
 Use this card for testing successful payments:
 
 Card Number: 4111 1111 1111 1111
+
 Expiry Date: 12/28
+
 CVV: 123
+
 OTP: 123456
 
 ## ⚙️ How to Run
