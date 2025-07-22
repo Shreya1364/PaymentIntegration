@@ -43,7 +43,6 @@ Expiry Date: 12/28
 
 CVV: 123
 
-OTP: 123456
 
 ## ⚙️ How to Run
 
