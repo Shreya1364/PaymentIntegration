@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Razorpay Payment Integration</title>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+  <h2>Secure Razorpay Payment</h2>
+
+  <form id="payment-form">
+    <label>Name:</label>
+    <input type="text" id="name" required><br><br>
+
+    <label>Email:</label>
+    <input type="email" id="email" required><br><br>
+
+    <button type="button" onclick="payNow()">Pay ₹100</button>
+  </form>
+
+  <script>
+    async function payNow() {
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+
+      try {
+        // Fetch order details from backend
+        const response = await fetch("order.php");
+        const data = await response.json();
+
+        const options = {
+          key: "Your KeyId", // Razorpay Key ID
+          amount: 100, // Amount in paise
+          currency: "INR",
+          name: "My Test Shop",
+          description: "Test Transaction",
+          image: "https://your-logo-url.com/logo.png", // Optional logo
+          order_id: data.order_id, // Order ID from backend
+          handler: function (response) {
+            alert("✅ Payment successful!\nPayment ID: " + response.razorpay_payment_id);
+          },
+          prefill: {
+            name: name,
+            email: email
+          },
+          theme: {
+            color: "#0d6efd"
+          }
+        };
+
+        const rzp = new Razorpay(options);
+        rzp.open();
+
+      } catch (error) {
+        alert("Something went wrong: " + error);
+        console.error(error);
+      }
+    }
+  </script>
+</body>
+</html>
+
