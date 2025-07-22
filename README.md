@@ -22,7 +22,8 @@ This project demonstrates how to integrate Razorpay payment gateway into a simpl
 ### 💰 Razorpay Checkout Screen  
 ![Checkout Screen](https://github.com/user-attachments/assets/13c086cf-09e0-47a4-8933-8ebcc643f153.png) 
 
-![Image](https://github.com/user-attachments/assets/6e47ba38-ef9a-4979-815b-b4fba8952f86.png)
+### 💳 Razorpay Checkout
+![Razorpay Checkout](https://github.com/user-attachments/assets/6e47ba38-ef9a-4979-815b-b4fba8952f86.png)
 ---
 
 ## 🛠️ Technologies Used
