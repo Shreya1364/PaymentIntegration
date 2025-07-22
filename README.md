@@ -32,6 +32,7 @@ This project demonstrates how to integrate Razorpay payment gateway into a simpl
 ## 📂 Project Structure
 
 Payment_Integration
+
 ├── index.html # Frontend form and payment button
 ├── order.php # Backend order creation using Razorpay
 ├── composer.json # Dependencies (Razorpay SDK)
